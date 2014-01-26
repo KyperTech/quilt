@@ -1,8 +1,17 @@
 var mongoose = require('mongoose')
-    , Patch = require('../patch/model')
+    , Schema = mongoose.Schema
 
-module.exports = mongoose.model('Quilt',{
-	patch: [Patch],
-	rows: Number,
-	columns: Number
+var QuiltSchema = new Schema({
+	owner: {type: Schema.ObjectId, ref: 'User'},
+	patches: [{type: Schema.ObjectId, ref: 'Patch'}],
+	rows: {type: Number},
+	columns: {type: Number}
 })
+
+QuiltSchema.statics = {
+	load: function (id, cb){
+		this.findOne({_id : id }).populate('owner').exec(cb)
+	}
+}
+
+mongoose.model('Quilt', QuiltSchema)

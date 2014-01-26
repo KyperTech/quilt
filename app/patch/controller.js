@@ -1,14 +1,33 @@
-var Patch = require('./model')
+var mongoose = require('mongoose')
+    , async = require('async')
+    , Patch = mongoose.model('Patch')
+    , _ = require('underscore')
 
 module.exports = {
-	view: function(req, res){
-		Patch.find(function (err, patches ){
+	patch: function(req, res, next, id){
+		Patch.load(id, function (err, patch){
+			if (err)
+				next(err)
+			if (!patch)
+				res.send(err)
+			req.patch = patch
+			next()
+		})
+	}
+	all: function(req, res){
+		Patch.find.populate('quilt').exec(function (err, patches){
 			if (err)
 				res.send(err)
 			res.json(patches)
 		})
 	},
+	show: function(req, res){
+		res.json(req.patch)
+	},
 	create: function(req, res){
+		var patch = new Patch(req.body)
+		patch.owner = req.user
+		
 		Patch.create({
 			rows: req.body.rows,
 			columns: req.body.columns,
@@ -26,37 +45,20 @@ module.exports = {
 		})
 	},
 	update: function(req, res){
-		Patch.update({
-			_id : req.params.patch_id
-		}, {
-			$set : {
-				rows: req.body.rows,
-			             columns: req.body.columns,
-			             top: req.body.top,
-			             left: req.body.left,
-			             content: req.body.content
-			}
-		}, function (err, quilts){
+		var patch = req.patch
+		patch = _.extend(patch, req.body)
+		patch.save(function (err){
 			if (err)
 				res.send(err)
-			Patch.find(function (err, quilts){
-				if (err)
-					res.send(err)
-				res.json(quilts)
-			})
+			res.json(patch)
 		})
 	},
 	destroy: function(req, res){
-		Patch.remove({
-			_id : req.params.patch_id
-		}, function(err, patches){
+		var patch = req.patch
+		patch.remove(function(err){
 			if (err)
 				res.send(err)
-			Patch.find(function (err, patches){
-				if (err)
-					res.send(err)
-				res.json(patches)
-			})
+			res.json(patch)
 		})
 	}
 }
