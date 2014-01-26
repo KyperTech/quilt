@@ -1,0 +1,12 @@
+{
+  "name"         : "Quilt",
+  "version"      : "0.0.0",
+  "description"  : "",
+  "main"         : "server.js",
+  "author"       : "Kyper",
+  "dependencies" : {
+    "express"    : "~3.4.4",
+    "mongoose"   : "~3.6.2",
+    "nodemon"	 : "0.7.10"
+  }
+}
