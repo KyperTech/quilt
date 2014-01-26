@@ -4,5 +4,5 @@ var mongoose = require('mongoose')
 module.exports = mongoose.model('Quilt',{
 	patch: [Patch],
 	rows: Number,
-	column: Number
+	columns: Number
 })
