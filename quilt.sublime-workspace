@@ -1,0 +1,651 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"tk-ele",
+				"tk-element-databinding-color"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"Ves",
+				"Vasectomy"
+			],
+			[
+				"user",
+				"user-profile"
+			],
+			[
+				"cons",
+				"console.log(message);"
+			],
+			[
+				"col",
+				"col-md-"
+			],
+			[
+				"s",
+				"s"
+			],
+			[
+				"de",
+				"DELETE"
+			],
+			[
+				"dropdown",
+				"dropdown-menu"
+			],
+			[
+				"exp",
+				"exp-year"
+			],
+			[
+				"ex",
+				"exp-month"
+			],
+			[
+				"btn",
+				"btn-primary"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".floo",
+			"settings":
+			{
+				"buffer_size": 55,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Angular\n\nNode\n\nPolymer",
+			"file": "organization",
+			"file_size": 0,
+			"file_write_time": 130351746430000000,
+			"settings":
+			{
+				"buffer_size": 22,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Mel/floobits/msgs.floobits.log",
+			"settings":
+			{
+				"buffer_size": 477,
+				"line_ending": "Unix",
+				"read_only": true
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"floo",
+				"Floobits - Join Workspace"
+			],
+			[
+				"flo",
+				"Floobits - Leave Workspace"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 150.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Mel/Code/quilt/new",
+		"/Users/Mel/Code/quilt/try",
+		"/Users/Mel/floobits/welcome.md",
+		"/Users/Mel/floobits/msgs.floobits.log",
+		"/Users/Mel/Code/node-todo/public/js/services/todos.js",
+		"/Users/Mel/Code/node-todo/public/js/controllers/main.js",
+		"/Users/Mel/Code/node-todo/public/index.html",
+		"/Users/Mel/Code/node-todo/config/database.js",
+		"/Users/Mel/Code/node-todo/app/models/todo.js",
+		"/Users/Mel/Code/node-todo/app/routes.js",
+		"/Users/Mel/Code/node-todo/server.js",
+		"/Users/Mel/Code/node-todo/package.json",
+		"/Users/Mel/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Mel/Code/node-todo/file.js",
+		"/Users/Mel/Library/Application Support/Sublime Text 3/Packages/User/Nodejs.sublime-settings",
+		"/Users/Mel/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Mel/Code/node-todo/node_modules/express/Makefile",
+		"/Users/Mel/Code/node-todo/public/js/core.js",
+		"/Users/Mel/Code/node-todo/public/core.js",
+		"/Users/Mel/Code/mean-stripdown/public/js/services/global.js",
+		"/Users/Mel/Code/mean-stripdown/public/js/controllers/leagues.js",
+		"/Users/Mel/Code/mean-stripdown/config/routes.js",
+		"/Users/Mel/Code/mean-stripdown/app/controllers/leagues.js",
+		"/Users/Mel/Code/mean-stripdown/app/models/league.js",
+		"/Users/Mel/Code/mean-stripdown/public/views/nfl/view.html",
+		"/Users/Mel/Code/mean-stripdown/public/js/controllers/nfl.js",
+		"/Users/Mel/Code/mean-stripdown/public/js/services/nfl.js",
+		"/Users/Mel/Code/mean-stripdown/public/views/header.html",
+		"/Users/Mel/Code/mean-stripdown/public/js/controllers/header.js",
+		"/Users/Mel/Code/mean-stripdown/public/views/nfl/list.html",
+		"/Users/Mel/Code/mean-stripdown/public/js/services/leagues.js",
+		"/Users/Mel/Code/mean-stripdown/app/views/layouts/default.jade",
+		"/Users/Mel/Code/mean-stripdown/app/views/includes/foot.jade",
+		"/Users/Mel/Code/mean-stripdown/public/js/app.js",
+		"/Users/Mel/Code/mean-stripdown/public/views/fantasyteams/list.html",
+		"/Users/Mel/Code/mean-stripdown/public/views/fantasyteams/create.html",
+		"/Users/Mel/Code/mean-stripdown/public/views/fantasyteams/edit.html",
+		"/Users/Mel/Code/mean-stripdown/public/views/fantasyteams/view.html",
+		"/Users/Mel/Code/mean-stripdown/public/views/leagues/list.html",
+		"/Users/Mel/Code/mean-stripdown/public/views/leagues/create.html",
+		"/Users/Mel/Code/mean-stripdown/public/views/leagues/view.html",
+		"/Users/Mel/Code/mean-stripdown/app/models/fantasyteam.js",
+		"/Users/Mel/Code/mean-stripdown/app/controllers/fantasyteams.js",
+		"/Users/Mel/Code/mean-stripdown/public/views/leagues/edit.html",
+		"/Users/Mel/Code/mean-stripdown/public/js/config.js",
+		"/Users/Mel/Code/mean-stripdown/public/js/services/fantasyteams.js",
+		"/Users/Mel/Code/mean-stripdown/public/js/controllers/fantasyteams.js",
+		"/private/etc/hosts",
+		"/private/etc/apache2/httpd.conf",
+		"/private/etc/apache2/extra/httpd-vhosts.conf",
+		"/Users/Mel/Code/HIEofOne-www/index.html",
+		"/Users/Mel/Code/HIEofOne/bb/bluebutton.js",
+		"/Users/Mel/Code/HIEofOne/.gitignore",
+		"/Users/Mel/Code/HIEofOne/config.js",
+		"/Users/Mel/Code/HIEofOne/routes/index.js",
+		"/Users/Mel/Dropbox/Program/opencv/samples/java/eclipse/HelloCV/src/Main.java",
+		"/Users/Mel/code/angular-phonecat/test/unit/filtersSpec.js",
+		"/Users/Mel/code/angular-phonecat/test/e2e/scenarios.js",
+		"/Users/Mel/code/angular-phonecat/app/js/filters.js",
+		"/Users/Mel/code/angular-phonecat/app/partials/phone-list.html",
+		"/Users/Mel/code/angular-phonecat/app/js/controllers.js",
+		"/Users/Mel/code/angular-phonecat/app/index.html",
+		"/Users/Mel/code/angular-phonecat/app/js/app.js",
+		"/Users/Mel/code/angular-phonecat/app/partials/phone-detail.html",
+		"/Users/Mel/code/angular-phonecat/app/phones/nexus-s.json",
+		"/Users/Mel/Code/boilerplate/app/views/layouts/dialogLayout.jade",
+		"/Users/Mel/Code/boilerplate/app/views/includes/head.jade",
+		"/Users/Mel/Code/boilerplate/package.json",
+		"/Users/Mel/Code/boilerplate/app/views/includes/adminSideNav.jade",
+		"/Users/Mel/Code/boilerplate/app/views/includes/adminFoot.jade",
+		"/Users/Mel/Code/boilerplate/app/views/includes/adminUserNav.jade",
+		"/Users/Mel/Code/boilerplate/app/views/admin/noSite.jade",
+		"/Users/Mel/Code/boilerplate/app/controllers/gallery.js",
+		"/Users/Mel/Code/boilerplate/app/models/site.js",
+		"/Users/Mel/Code/boilerplate/app/views/includes/adminHead.jade",
+		"/Users/Mel/Code/boilerplate/public/js/jquery.knob.js"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/Mel/Code/HIEofOne/public",
+			"/Users/Mel/Code/boilerplate"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"err",
+			"compass",
+			"templateUrl",
+			"when",
+			"indent",
+			"indentd",
+			"indentdd",
+			"indent",
+			"type",
+			"td.align-right\n                  button.btn.btn-primary Choose This",
+			"provider",
+			"2",
+			"0",
+			"Provider",
+			"cashprice",
+			"Provider",
+			"cash price",
+			"table-hover",
+			"=",
+			"icon",
+			"img/",
+			"img",
+			"./public",
+			"..",
+			"jsdom",
+			"e",
+			"this",
+			"this.width()",
+			"i",
+			"filter: alpha(opacity=20);",
+			"opacity",
+			"Div",
+			"class",
+			"width",
+			"document",
+			"window",
+			".selection",
+			"parent",
+			"lvl.services",
+			"main(",
+			"title",
+			"Site",
+			"sites",
+			"type",
+			"res",
+			"user",
+			"req.user,",
+			"req.user",
+			"stripe.customers.create",
+			"amqp://ikzzyrjx:KKSUXqJfYOtwnqElh6Bd2NCV2zqvD15-@turtle.rmq.cloudamqp.com/ikzzyrjx",
+			"amqp://rxvhogrx:iS8ufmG3YsdgpS5nbjnwfA5f-wsnQC_X@turtle.rmq.cloudamqp.com/rxvhogrx",
+			"site",
+			"_.",
+			"sites",
+			"service",
+			"Service",
+			"service",
+			"Service",
+			"service",
+			"Service",
+			"service",
+			"Service",
+			"service",
+			"Service",
+			"service",
+			"Service",
+			"service",
+			"login",
+			"2",
+			"<html>",
+			"/dash",
+			"7",
+			"label"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".floo",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 55,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								47
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "organization",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7,
+								7
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/Mel/floobits/msgs.floobits.log",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "quilt.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"to",
+				"app/models/todo.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
